@@ -27,4 +27,5 @@ This repository contains my solutions to Frontend Mentor challenges. The project
 
 ## My Frontend Mentor Profile 🔗
 You can view my progress and challenges on my Frontend Mentor profile.
+
 🔗 **[Frontend Mentor](https://www.frontendmentor.io/profile/rocioizq)**
