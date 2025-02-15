@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    font-size: 16px;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+section {
+    background-color: #fff;
+    padding: 1.5em;
+    border-radius: 1.5em;
+    border: solid 2px hsl(0, 0%, 7%);
+    width: calc(90% - 20px);
+    box-shadow: 9px 10px 0px 1px #000000;
+    margin: 20px auto;
+    
+}
+
+.illustration {
+    width: 100%;
+    border-radius: 1em;
+    margin-bottom: 1.5em;
+}
+
+h1 {
+    margin-bottom: .8em;
+    cursor: pointer;
+}
+
+h1:hover {
+    color: hsl(47, 88%, 63%);
+}
+
+p {
+    color: hsl(0, 0%, 50%);
+    line-height: 1.6em;
+    margin-bottom: 1.5em;
+}
+
+.learning {
+    background-color: hsl(47, 88%, 63%);
+    padding: .5em;
+    width: 30%;
+    text-align: center;
+    border-radius: .5em;
+    font-weight: 800;
+    margin-bottom: 1.5em;
+    color: hsl(0, 0%, 7%);
+    cursor: pointer;
+}
+
+.learning:hover {
+    background-color: hsl(0, 0%, 7%);
+    color: hsl(47, 88%, 63%);
+}
+
+.published {
+    margin-bottom: .5em;
+    color: hsl(0, 0%, 7%);
+    font-weight: 600;
+}
+
+.avatar {
+    display: inline-block; 
+    vertical-align: middle;
+    width: 15%;
+}
+
+h2 {
+    display: inline-block; 
+    margin-left: 10px; 
+    font-size: 1.3em;
+}
+
+@media (min-width: 650px) { 
+    section {
+        width: 50%;
+        margin: 0 auto; 
+    }
+}
