@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Overpass", sans-serif;
+    font-size: 16px;
+    background-color: hsl(216, 12%, 8%);
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+button {
+    font-family: inherit;
+}
+
+div {
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.5em;    
+    border-radius: 2em;
+    max-width: 400px;
+}
+
+h1, h2 {
+    color: hsl(0, 0%, 100%);
+    margin-top: .5em;
+}
+
+p {
+    color: hsl(217, 12%, 63%);
+    margin: 1rem 0 1em 0;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
+ul li button {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: none;
+    color: hsl(0, 0%, 100%);
+    background-color:hsla(217, 12%, 63%, 0.338);
+    cursor: pointer;
+}
+
+ul li button:hover {
+    background-color: hsl(25, 97%, 53%);
+}
+
+ul li button:focus {
+    background-color: hsl(217, 12%, 63%);
+}
+
+.btn-submit {
+    background-color: hsl(25, 97%, 53%);
+    width: 100%;
+    padding: .5em;
+    border: none;
+    border-radius: 30px;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color: white;
+    color:hsl(25, 97%, 53%) ;
+}
+
+.thanks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.thanks img {
+    display: block;
+    margin: 0 auto 2em;
+}
+
+.selected {
+    color: hsl(25, 97%, 53%);
+    background-color: hsla(217, 12%, 63%, 0.338);
+    border-radius: 1em;
+    padding: .5em;
+    width: 70%;
+    
+}
+
+.star {
+    background-color: hsla(217, 12%, 63%, 0.338);
+    border-radius: 50%;
+    padding: .8em;
+}
+
+.hidden {
+    display: none;
+}

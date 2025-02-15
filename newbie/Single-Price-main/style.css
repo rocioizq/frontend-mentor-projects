@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Karla', sans-serif;
+    background-color: #e5eff5;
+    font-size: 16px;
+    min-height: 100vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+main {
+    padding: 2em;
+}
+
+article {
+    padding: 3em;
+}
+
+.first {
+    background-color: white;
+}
+
+.first h1 {
+    color: hsl(179, 62%, 43%);
+    margin-bottom: 1.5em;
+    margin-top: 1em;
+    font-size: 1.6em;
+}
+
+.first h2 {
+    color: hsl(71, 73%, 54%);
+    font-size: 1.2em;
+    margin-bottom: 1.5em;
+}
+
+.first p {
+    color:  hsl(218, 22%, 67%);
+    font-size: 1em;
+    line-height: 1.8em;
+    margin-bottom: 1em;
+
+}
+
+.subscription {
+    
+}
+
+.second {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.second h1, h2, p, button {
+    color: white;
+}
+
+.second h1 {
+    margin-bottom: 1em;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    margin-bottom: .8em;
+}
+
+.price h2 {
+    font-size: 2em;
+}
+
+.price span {
+    color: rgb(230, 230, 230);
+    font-weight: 400;
+}
+
+.second p {
+    margin-bottom: 2em;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    border: none;
+    border-radius: .5em;
+    padding: 1em 5em;
+    width: 100%;
+    font-weight: 700;
+    font-size: 1em;
+    margin-bottom: 1em;
+}
+
+.third {
+    background-color: hsl(179, 60%, 52%);
+}
+
+.third h1, p {
+    color: white;
+}
+
+.third h1 {
+    margin-bottom: 1em;
+}
+
+.third p {
+    line-height: 1.5em;
+    font-weight: 400;
+}
+
+@media only screen and (min-width: 650px) {
+    body {
+        margin: 0 auto;
+        width: 100%;
+    }
+
+    main {
+        border-radius: 2em;
+    }
+    
+    .subscription{
+        display: flex;
+    }
+
+    .second, .third {
+        width: 50%;
+    }
+
+    .second button {
+        padding: 1em;
+    }
+}
+
+@media only screen and (min-width: 1000px) {
+    body {
+        width: 50%;
+        margin: 0 auto;
+    }
+}

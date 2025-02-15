@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body { 
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+
+}
+
+main {
+    background-color: rgb(20, 37, 61);
+    border-radius: 2em;
+    padding: 2em;
+    overflow: hidden;
+    width: 350px;
+    height: 630px;
+}
+
+.img1 {
+    border-radius: 1em;
+    width: 100%;
+    opacity: 1;
+}
+
+
+h1 {
+    color: white;
+    margin: 0.5em 0;
+}
+
+p {
+   color: hsl(215, 51%, 70%);
+   margin: 1em 0;
+   font-size: 18px;
+}
+
+
+h2 {
+    color :hsl(178, 100%, 50%);
+}
+
+h3 {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    padding-left: 0.313rem;
+}
+
+.icons {
+    display: flex;
+    margin-top: 1.5eem;
+}
+
+.ethereum {
+    width: 0.875rem;;
+    height: 1.375rem;
+    padding-right: 0.40rem;
+    padding-top: 0.3rem;
+
+}
+
+.clock {
+    padding-left: 5.625rem;
+    height: 1.375rem;
+    padding-top: 0.2rem;
+
+}
+
+hr {
+    border: solid 0.1em hsl(215, 32%, 27%);
+    margin-top: 2em;
+}
+
+.creator {
+    display: flex;
+    align-items: center;    
+    margin-top: 1.5em;
+}
+
+.avatar {
+    width: 50px;
+    margin-right: 1em;
+    border: solid white 1px;
+    border-radius: 2em;
+
+}
+
+h4 {
+    color: white;
+    font-weight: 300;
+    padding-right: 0.3rem;
+}
+
+h5 {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+h1:hover, h5:hover {
+    cursor: pointer;
+    color: hsl(178, 100%, 50%);
+}
+
+/*
+font-family: 'Outfit', sans-serif;
+*/
+
