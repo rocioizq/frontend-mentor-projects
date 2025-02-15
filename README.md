@@ -2,6 +2,11 @@
 
 This repository contains my solutions to Frontend Mentor challenges. The projects are organized by difficulty, helping me improve my skills in HTML, CSS, and JavaScript.
 
+## My Frontend Mentor Profile 🔗
+You can view my progress and challenges on my Frontend Mentor profile.
+
+🔗 **[Frontend Mentor](https://www.frontendmentor.io/profile/rocioizq)**
+
 ## Project Structure 📂
 
 - **Newbie**: Basic HTML and CSS challenges.
@@ -25,7 +30,4 @@ This repository contains my solutions to Frontend Mentor challenges. The project
     ```
 3. Open the `index.html` file in your browser.
 
-## My Frontend Mentor Profile 🔗
-You can view my progress and challenges on my Frontend Mentor profile.
 
-🔗 **[Frontend Mentor](https://www.frontendmentor.io/profile/rocioizq)**
