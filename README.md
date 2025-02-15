@@ -30,4 +30,5 @@ You can view my progress and challenges on my Frontend Mentor profile.
     ```
 3. Open the `index.html` file in your browser.
 
-
+## Feedback 💬
+Any feedback or suggestions are welcome! Feel free to open an issue or reach out to me directly.
