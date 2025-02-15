@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "DM Sans", sans-serif;
+    height: 100vh;
+    font-size: 16px;
+}
+
+div {
+    margin: 2em .2em;
+    padding: 1em;
+    border-radius: .5em;
+   /* box-shadow: 0px 10px 28px -3px rgba(104, 102, 102, 0.1);*/
+}
+
+img {
+    width: 100%;
+}
+
+.social-media {
+    background-color: hsl(256, 67%, 59%);
+    color: #ffff;
+    text-align: center;
+    padding: 2.5em;
+}
+
+.social-media h1 {
+    font-size: 3.5em;
+    font-weight: 400;
+    line-height: 90%;
+    margin-bottom: .5em;
+}
+
+.social-media .italic {
+    font-style: italic;
+}
+
+.social-media .color {
+    color: hsl(39, 100%, 71%);
+}
+
+.social-media img {
+    width: 70%;
+}
+
+.social-media p {
+    font-size: 1.3em;
+}
+
+.plataforms {
+    background-color: #ffff;
+}
+
+.consistent {
+    background-color: hsl(39, 100%, 71%);
+    height: 277px;
+}
+
+.consistent h2 {
+    font-size: 1.8em;
+    line-height: 90%;
+    font-weight: 600;
+    letter-spacing: -1px;
+    margin-bottom: .8em;
+}
+
+.consistent img {
+    width: 70%;
+}
+
+.schedule-social-media {
+    background-color: hsl(254, 88%, 90%);
+    padding: 1.5em;
+}
+
+.schedule-social-media h2 {
+    text-align: center;
+    padding-bottom: .8em;
+    font-size: 1.7em;
+    font-weight: 700;
+    letter-spacing: -1.2px;
+}
+
+.schedule-social-media p {
+    text-align: center;
+    font-size: 1.3em;
+    font-weight: 500;
+    padding: 1em 0;
+    line-height: 90%;
+}
+
+.grow-followers {
+    background-color: hsl(256, 67%, 59%);
+}
+
+.grow-followers img {
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.grow-followers h2 {
+    color: #ffff;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 1em;
+    line-height: 90%;
+    font-weight: 500;
+    padding: .8em 2em;
+}
+
+.faster-audience h1 {
+    font-size: 3.5em;
+    font-weight: 600;
+}
+
+.faster-audience p {
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    font-weight: 500;
+}
+
+.faster-audience img{
+    width: 60%;
+}
+
+.create {
+    background-color: hsl(31, 66%, 93%);
+    padding: 2em;
+}
+
+.create h1 {
+    font-weight: 600;
+    font-size: 2.2em;
+    letter-spacing: -1px;
+    line-height: 90%;
+    margin-bottom: 1em;
+}
+
+.create span {
+    color: hsl(256, 67%, 59%);
+    font-style: italic;
+}
+
+.create img {
+    width: 70%;
+}
+
+.write-your-content {
+    background-color: hsl(39, 100%, 71%);
+    padding: 2em;
+}
+
+.write-your-content h1 {
+    line-height: 90%;
+    font-weight: 600;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+.write-your-content img {
+    width: 80%;
+}
+
+@media only screen and (min-width: 900px){
+    .container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            grid-template-rows: 2fr 50px 1fr 1.2fr;
+            grid-column-gap: 15px;
+            grid-row-gap: 15px;
+            width: 70%;
+            margin: 0 auto;
+        }
+        
+        .social-media { 
+            grid-area: 1 / 2 / 3 / 4; 
+            height: 30%;
+        }
+
+        .social-media h1 {
+            font-size:3.8em;
+            padding-top: .5em
+        }
+
+        .social-media img {
+            width:40%;
+        }
+
+        .plataforms { 
+            grid-area: 2 / 2 / 2 / 3; 
+           height: 50%;
+        }
+
+        .consistent { 
+            grid-area: 2 / 3 / 2 / 4; 
+        }
+
+        .schedule-social-media { 
+            grid-area: 1 / 4 / 4 / 5;
+            height: 40%; 
+        }
+
+        .schedule-social-media h2 {
+            text-align: start;
+            line-height: .9em;
+            font-size: 2.2em;
+            font-weight: 500;
+            padding-top: 1em;
+        }
+
+        .schedule-social-media p {
+            text-align: start;
+            line-height: 1.2em;
+        }
+        
+        .grow-followers { 
+            grid-area: 4 / 3 / 5 / 5; 
+        }
+
+        .faster-audience { 
+            grid-area: 4 / 2 / 5 / 3; 
+        }
+
+        .create { 
+            grid-area: 1 / 1 / 3 / 2;
+            height: 40%;
+        }
+
+        .create h1 {
+            font-size: 2.5em;
+            padding-top: 1.3em;
+            font-weight: 500;
+        }
+
+        .create img {
+            width: 90%;
+        }
+
+        .write-your-content { 
+            grid-area: 2 / 1 / 4 / 2; 
+        }         
+}

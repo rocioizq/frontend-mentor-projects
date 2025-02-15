@@ -1,0 +1,328 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2em;
+}
+
+header img {
+    width: 40%;
+}
+
+header button {
+    padding: .5em 2em;
+    border-radius: 2em;
+    border: 2px solid hsl(322, 100%, 66%);
+    color: hsl(322, 100%, 66%);
+    background-color: white;
+}
+
+header button:hover {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    cursor: pointer;
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: hsl(192, 100%, 9%);
+}
+
+.title {
+    margin-top: 3em;
+    margin-bottom: 1em;
+    font-size: 1.7em;
+}
+
+.first p {
+    font-weight: 400;
+}
+
+.first button, .third button {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border-radius: 2em;
+    border: none;
+    margin-top: 3em;
+    font-weight: 600;
+    font-size: .9em;
+    padding: 1em 2em;
+}
+
+.first button:hover,
+.third button:hover,
+.newsletter button:hover {
+    background-color: hsla(322, 100%, 66%, 0.658);
+    cursor: pointer;
+}
+
+.first img {
+    margin-top: 3em;
+    width: 90%;
+}
+
+.number-1, .number-2 {
+    margin-bottom: 4em;
+}
+
+.numbers img {
+    width: 15%;
+    margin-right: 7em;
+}
+
+.numbers h1 {
+    font-size: 4em;
+}
+
+.numbers p {
+    color: hsla(192, 100%, 9%, 0.384);
+    font-weight: 600;
+}
+
+.second {
+    margin: 10em 0;
+}
+
+.second img {
+    width: 80%;
+}
+
+.second h1 {
+    font-size: 1.4em;
+    margin: 1em;
+}
+
+.second p {
+    color: hsl(192, 100%, 9%);
+    font-weight: 400;
+}
+
+.text {
+    margin: 2em 0;
+}
+
+.grow, .flowing {
+    margin-bottom: 10em;
+}
+
+
+.third h1 {
+    font-size: 1.5em;
+}
+
+footer {
+    
+    color: white;
+    margin-top: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bg{
+    width: 100%;
+}
+
+.footer-container {
+    background-color: hsl(192, 100%, 9%);
+    padding: 2em;
+}
+
+.newsletter h1 {
+    color: white;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+}
+
+footer p {
+    margin-bottom: 1.5em;
+    font-size: .8em;
+    width: 90%;
+}
+
+.newsletter input {
+    width: 100%;
+    padding: 1em;
+    border-radius: .8em;
+}
+
+.newsletter button {
+    padding: 1em 2em;
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    border: none;
+    font-size: 1em;
+    font-weight: 600;
+    border-radius: .5em;
+    margin-left: 9em;
+    margin-top: 1em;
+}
+
+.footer-text {
+    width: 90%;
+}
+
+.footer-logo {
+    filter: brightness(0) invert(1);
+    margin: 4em 0 1em 0;
+    width: 50%;
+}
+
+.contact img, .contact p {
+    display: inline-block;
+}
+
+.contact p{
+    padding-left: .5em;
+}
+
+.social-icons {
+    filter: brightness(0) invert(1);
+}
+
+.fa {
+    text-decoration: none;
+    padding: .3em;
+}
+
+@media only screen and (min-width: 850px) {
+   header {
+    margin: 2em;
+   }
+    
+    header img {
+        width: 10%;
+    }
+
+    header button {
+        padding: 1em 4em;
+        font-weight: 700;
+    }
+
+    .title {
+        font-size: 3em;
+        margin-bottom: .5em;
+    }
+
+    .first p {
+        width: 40%;
+        margin: 0 auto;
+    }
+
+    .first button, .third button {
+        padding: 1.5em 7em;
+        border-radius: 10em;
+        font-size: 1em;
+        margin-bottom: 3em;
+    }
+
+    .first img {
+        margin-top: 3em;
+        width: 80%;
+    }
+
+    .numbers {
+        display: flex;
+        justify-content: center;
+        gap: 20em;
+        margin-top: 8em;
+    }
+
+    .numbers img {
+        width: 20%;
+    }
+
+    .numbers h1 {
+        font-size: 6em;
+    }
+
+    .numbers p {
+        font-size: 1.5em;
+        width: 100%;
+    }
+
+
+    .grow,
+    .flowing,
+    .users {
+       display: flex;  
+       align-items: center;
+       justify-content: space-around;
+    }
+
+    .second img {
+        width: 80%;
+    }
+
+    .grow .img-box,
+    .users .img-box {
+        order: 1;
+    }
+
+    .text {
+        text-align: left;
+    }
+
+    .text h1 {
+        font-size: 2em;
+        margin-bottom: .8em;
+        margin-left: 0;
+    }
+
+    .text p {
+        width: 70%;
+    }
+
+    .third h1 {
+        font-size: 2em;
+    }
+
+    .footer-container {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 5em;
+    }
+
+   .footer-text {
+        width: 50%;
+   }
+
+   .footer-text p {
+        width: 40%;
+   }
+
+    .newsletter {
+        width: 20%;
+    }
+
+    .footer-logo {
+        width: 30%;
+    }
+}
