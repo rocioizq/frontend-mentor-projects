@@ -21,7 +21,7 @@ This is a responsive landing page that showcases a clean, modern interface with 
 - **SVG** for icons
 
 ## 📸 Preview  
-![Blogr Landing Page Preview](/design/desktop-preview.jpg)
+![Blogr Landing Page Preview](./design/desktop-preview.jpg)
 
 ## 🏗 Installation  
 1️⃣ Clone the repository:  

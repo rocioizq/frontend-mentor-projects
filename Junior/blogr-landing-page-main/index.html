@@ -10,7 +10,7 @@
 <body>
   <header>
     <div class="header-mobile">
-      <a href="#"><img src="images/logo.svg" alt="logo blogr"></a>
+      <a href="#" class="logo"><img src="images/logo.svg" alt="logo blogr"></a>
       <img class="icon-menu" src="images/icon-hamburger.svg" alt="icon hamburger menu">
       <img class="icon-menu-close" src="images/icon-close.svg" alt="icon close menu">
     </div>
@@ -66,40 +66,49 @@
   <section class="future">
     <h2>Designed for the future</h2>
 
-    <div class="future-image">
-      <img src="images/illustration-editor-mobile.svg" alt="illustration">
-    <img src="images/illustration-editor-desktop.svg" alt="illustration" style="display: none;">
-    </div>
-    
-    <div class="text">
-      <h3>Introducing an extensible editor</h3>
-      <p>
-        Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
-        The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
-        videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
-        change the looks of a blog.
-      </p>
+    <div class="future-container">
+      <div class="future-image">
+        <img class="editor-mobile" src="images/illustration-editor-mobile.svg" alt="illustration">
+      <img class="editor-desktop" src="images/illustration-editor-desktop.svg" alt="illustration">
+      </div>
+      
+      <div class="text">
+        <h3>Introducing an extensible editor</h3>
+        <p>
+          Blogr features an exceedingly intuitive interface which lets you focus on one thing: creating content. 
+          The editor supports management of multiple blogs and allows easy manipulation of embeds such as images, 
+          videos, and Markdown. Extensibility with plugins and themes provide easy ways to add functionality or 
+          change the looks of a blog.
+        </p>
 
-      <h3>Robust content management</h3>
-      <p>
-        Flexible content management enables users to easily move through posts. Increase the usability of your blog 
-        by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
-      </p>
+        <h3>Robust content management</h3>
+        <p>
+          Flexible content management enables users to easily move through posts. Increase the usability of your blog 
+          by adding customized categories, sections, format, or flow. With this functionality, you’re in full control.
+        </p>
+      </div>
     </div>
   </section>
 
   <section class="infrastructure">
-    <img src="images/illustration-phones.svg" alt="illustration phones">
-    <h2>State of the Art Infrastructure</h2>
-    <p>
-      With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
-      This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.    
-    </p>
+    <div class="infrastructure-image">
+      <img src="images/illustration-phones.svg" alt="illustration phones">
+    </div>
+    
+    <div class="text">
+      <h2>State of the Art Infrastructure</h2>
+      <p>
+        With reliability and speed in mind, worldwide data centers provide the backbone for ultra-fast connectivity. 
+        This ensures your site will load instantly, no matter where your readers are, keeping your site competitive.    
+      </p>
+    </div>
   </section>
 
   <section class="open-source">
-    <img class="laptop-mobile" src="images/illustration-laptop-mobile.svg" alt="illustration laptop">
-    <img class="latpop-desktop" src="images/illustration-laptop-desktop.svg" alt="illustration laptop" style="display: none;">
+    <div class="laptop-image">
+      <img class="laptop-mobile" src="images/illustration-laptop-mobile.svg" alt="illustration laptop">
+      <img class="laptop-desktop" src="images/illustration-laptop-desktop.svg" alt="illustration laptop">
+    </div>
 
     <div class="text">
       <h3>Free, open, simple</h3>
@@ -119,34 +128,39 @@
  </main>
 
  <footer>
-  <img src="images/logo.svg" alt="logo blogr">
-  <ul>
-    <li><a href="#" class="menu-footer">Product</a>
-      <ul class="options-menu-footer">
-        <li><a href="#">Overview</a></li>
-        <li><a href="#">Pricing</a></li>
-        <li><a href="#">Marketplace</a></li>
-        <li><a href="#">Features</a></li>
-        <li><a href="#">Integrations</a></li>
-      </ul>
-    </li>
-    <li><a href="#" class="menu-footer">Company</a>
-      <ul class="options-menu-footer">
-        <li><a href="#">About</a></li>
-        <li><a href="#">Team</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Careers</a></li>
-      </ul>
-    </li>
-    <li><a href="#" class="menu-footer">Connect</a>
-      <ul class="options-menu-footer">
-        <li><a href="#">Contact</a></li>
-        <li><a href="#">Newsletter</a></li>
-        <li><a href="#">LinkedIn</a></li>
-      </ul>
-    </li>
-   </ul>
- </footer>
+  <div class="footer-image">
+    <img src="images/logo.svg" alt="logo blogr">
+  </div>
+
+  <div class="footer-menu-container">
+    <ul>
+      <li><a href="#" class="menu-footer">Product</a>
+        <ul class="options-menu-footer">
+          <li><a href="#">Overview</a></li>
+          <li><a href="#">Pricing</a></li>
+          <li><a href="#">Marketplace</a></li>
+          <li><a href="#">Features</a></li>
+          <li><a href="#">Integrations</a></li>
+        </ul>
+      </li>
+      <li><a href="#" class="menu-footer">Company</a>
+        <ul class="options-menu-footer">
+          <li><a href="#">About</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+        </ul>
+      </li>
+      <li><a href="#" class="menu-footer">Connect</a>
+        <ul class="options-menu-footer">
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Newsletter</a></li>
+          <li><a href="#">LinkedIn</a></li>
+        </ul>
+      </li>
+    </ul>
+    </div>
+</footer>
 <script src="./src/main.js"></script>
 </body>
 </html>

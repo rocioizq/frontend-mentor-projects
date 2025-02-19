@@ -125,7 +125,7 @@ button {
     font-weight: 700;
 }
 
-.sign-up-btn{
+.sign-up-btn {
     color: hsl(0, 0%, 100%);
     border-radius: 2em;
     font-size: 1.1em;
@@ -215,8 +215,12 @@ h2, h3 {
     margin-block: 2em;
 }
 
+.editor-desktop{
+    display:none;
+}
+
 .text {
-    padding: 2em;
+    padding: 1em;
     font-size: 1.1em;
     color: hsl(207, 13%, 34%);
 }
@@ -234,7 +238,7 @@ p {
 }
 
 .infrastructure p {
-    padding: 1em;
+    padding: 1em 0;
     font-size: 1.1em;
     color: hsl(240, 2%, 79%);
     margin-bottom: 2em;
@@ -251,6 +255,11 @@ p {
 
 .laptop-mobile {
     margin-block: 2em;
+    display: block;
+}
+
+.laptop-desktop {
+    display: none;
 }
 
 footer {
@@ -278,4 +287,249 @@ footer img {
 
 .options-menu-footer  {
     margin-bottom: 2em;
+}
+
+@media (min-width: 1000px) {
+    header {
+        background: url("../images/bg-pattern-intro-desktop.svg"),
+        linear-gradient(90deg, rgba(255,143,112,1) 0%, rgba(255,61,84,1) 100%);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center; 
+        width: 100%;
+        height: 500px;
+        text-align: center;
+    }
+
+    .logo {
+        margin-left: 3em;
+    }
+    
+    nav {
+        opacity: 1;
+        visibility: visible;
+        background-color: transparent;
+        box-shadow: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 55%;
+    }
+
+    nav:hover {
+        cursor: pointer;
+    }
+
+    nav ul {
+        display: flex;
+        justify-content: flex-start;
+        gap: 3em;
+        align-items: center;
+        width: 80%;
+    }
+
+    nav ul li a {
+        font-weight: 400;
+        font-size: .9em;
+        color: hsl(0, 0%, 100%);
+    }
+
+    .menu-option:hover {
+        text-decoration: underline;
+    }
+
+    nav ul li {
+        position: relative; 
+    }
+    
+    .dropdown-menu {
+        position: absolute;
+        top: 100%; 
+        left: 0;
+        background-color: white;
+        text-align: start;
+        width: 200px;
+        border-radius: 8px;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        padding: 1em;
+        opacity: 0;
+        visibility: hidden;
+        transform: translateY(10px);
+        transition: opacity 0.3s ease, transform 0.3s ease;
+    }
+    
+    nav ul li:hover .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: translateY(0);
+    }
+
+    .dropdown-menu a {
+        font-weight: 500;
+    }
+
+    .dropdown-menu a:hover {
+        font-weight: 800;
+    }
+
+    .login-container {
+        border: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
+        font-size: .8em;
+    }
+
+    .login-btn {
+        color: hsl(0, 0%, 100%);
+        cursor: pointer;
+    }
+
+    .sign-up-btn {
+        background: hsl(0, 0%, 100%);
+        color: rgb(255,143,112);
+        padding: 1em 2em;
+    }
+
+    .sign-up-btn:hover {
+        cursor: pointer;
+        color: hsl(0, 0%, 100%);
+        background-color: hsla(0, 0%, 100%, 0.237);
+    }
+
+    .intro h1 {
+        font-size: 4em;
+        margin: 0;
+    }
+
+    .intro p {
+        font-size: 1.5em;
+    }
+
+    .intro-btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 1em;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    .future h2 {
+        font-size: 2.1em;
+    }
+
+    .future-container {
+        display: flex;
+        justify-content: center;
+        flex-direction: row-reverse;
+        align-items: center;
+    }
+
+    .editor-desktop{
+        display:block;
+        width: 100%;
+    }
+
+    .editor-mobile {
+        display: none;
+    }
+
+    .future .text {
+        width: 50%;
+        margin: 5em;
+        line-height: 2em;
+        text-align: start;
+    }
+
+    .future h3 {
+        margin-top: 2em;
+    }
+
+    .infrastructure {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 400px;
+  
+    }
+
+    .infrastructure .text {
+        text-align: start;
+        width: 40%;
+    }
+
+    .infrastructure h2 {
+        margin-top: 1em;
+    }
+
+    .infrastructure .text p {
+        font-size: 1em;
+        line-height: 1.8em;
+    }
+
+    .open-source {
+        display: flex;
+        align-items: center;
+        padding: 5em;
+    }
+
+    .laptop-mobile {
+        display: none;
+    }
+
+    .laptop-desktop {
+        display: block;
+    }
+
+    .open-source .text {
+        width: 40%;
+        text-align: start;
+    }
+
+    .open-source p {
+        margin-bottom: 2em;
+    }
+
+    .open-source h3 {
+        margin-block: .5em;
+    }
+
+    footer {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    footer ul {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-around;
+        font-size: .9em;
+    }
+
+    .options-menu-footer a:hover {
+        text-decoration: underline;
+    }
+
+    .footer-menu-container {
+        width: 70%;
+    }
+
+    .options-menu-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .icon-menu {
+        opacity: 0;
+        visibility: hidden;
+    }
 }
