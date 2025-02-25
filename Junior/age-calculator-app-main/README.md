@@ -2,7 +2,7 @@
 
 This project is a solution to the [Frontend Mentor](https://www.frontendmentor.io/) challenge called **Age Calculator App**.
 
-🔗 **[Live Demo](#)**\
+🔗 **[Live Demo](https://frontend-mentor-projects-blush.vercel.app/)**\
 🔗 **[Solution Demo](#)**
 
 ## 📌 Description

@@ -148,7 +148,7 @@ input.error-border {
 
 @media (min-width: 1000px) {
     .calculator-container {
-        width: 800px;
+        width: 700px;
         height: 650px;
         border-bottom-right-radius: 15em;
     }
