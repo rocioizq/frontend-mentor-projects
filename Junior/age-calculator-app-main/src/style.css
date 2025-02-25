@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 * {
     margin: 0;
@@ -9,14 +9,30 @@
 body {
     font-family: "Poppins", sans-serif;
     font-size: 16px;
-    background-color: hsl(0, 0%, 86%);
-}
-
-.calculator {
+    background-color: hsl(0, 0%, 94%);
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.calculator-container {
     background-color: hsl(0, 0%, 100%);
+    border-radius: 2em;
+    border-bottom-right-radius: 10em;
+    width: 400px;
+    height: 600px;
+    box-shadow: 0px 10px 18px 0px rgba(0,0,0,0.1);
+    padding: 3em;
+    position: relative;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1em;
+
 }
 
 input[type="number"]::-webkit-inner-spin-button,
@@ -27,5 +43,146 @@ input[type="number"]::-webkit-outer-spin-button {
 
 input[type="number"] {
     appearance: textfield;
+    outline: none;
+    padding: .5em;
+    border-radius: .5em;
+    border: solid 1px hsl(0, 1%, 44%);
+    width: 6.5em;
+    height: 4em;
+    font-size: 1em;
+    font-weight: 600;
 }
 
+input[type="number"]:hover {
+    cursor: pointer;
+}
+
+input[type="number"]:focus {
+    border: 3px solid hsl(259, 100%, 65%);
+}
+
+.inputs-container {
+    display: flex;
+    gap: 1em;
+}
+
+.user-data {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.user-data label {
+    font-weight: 800;
+    color: hsl(0, 1%, 44%);
+    text-transform: uppercase;
+    letter-spacing: .2em;
+}
+
+hr {
+    height: 1px;
+    width: 100%;
+    border: none;
+    position: relative;
+    top: 4em;
+    background-color: hsl(0, 0%, 86%);
+}
+
+.btn-submit {
+    background-color: hsl(259, 100%, 65%);
+    border: none;
+    border-radius: 50%;
+    padding: .8em;
+    margin-top: 1em;
+    position: absolute;
+    top: 13.4em;
+}
+
+.btn-submit:hover {
+    cursor: pointer;
+    background-color: hsl(259, 56%, 50%);
+    transition: background-color .4s ease, transform 0.3s ease;
+}
+
+.result {
+    margin-top: 6em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .2em;
+    font-weight: 900;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.result-year,
+.result-month, 
+.result-day {
+    color: hsl(259, 100%, 65%);
+}
+
+.result ul li {
+    font-style: italic;
+    font-size: 3.3em;
+}
+
+.error {
+    color: hsl(0, 100%, 67%);
+    font-size: .95em;
+    display: none;
+}
+
+.user-data .error-text {
+    color: hsl(0, 100%, 67%);
+}
+
+input.error-border {
+    border-color: hsl(0, 100%, 67%);
+}
+
+.error-container {
+    margin-top: .5em;
+}
+
+@media (min-width: 1000px) {
+    .calculator-container {
+        width: 800px;
+        height: 650px;
+        border-bottom-right-radius: 15em;
+    }
+
+    .btn-submit {
+        top: 14em;
+        right: 4em;
+        width: 7em;
+        height: 7em;
+    }
+
+    hr {
+        top: 3.3em;
+        width: 90%;
+    }
+
+    input[type="number"] {
+        width: 11em;
+    }
+  
+    #form {
+        margin-top: 2em;
+        display: flex;
+        align-items: start;
+        justify-content: flex-end;
+    }
+
+    .result ul li {
+        font-style: italic;
+        font-size: 4em;
+    }
+   
+    .user-data label {
+        font-size: 1.5em;
+    }
+    
+}
