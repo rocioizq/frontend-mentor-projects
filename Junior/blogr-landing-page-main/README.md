@@ -2,7 +2,8 @@
 
 This project is a solution to the [Frontend Mentor](https://www.frontendmentor.io/) challenge called **Blogr Landing Page**.
 
-🔗 **[Live Demo](#)**
+🔗 **[Live Demo](https://blogr-landing-page-delta-nine.vercel.app/#)**
+🔗 **[Solution Demo](https://www.frontendmentor.io/solutions/responsive-blogr-landing-page-eRZuyH_lyK)**
 
 ## 📌 Description  
 This is a responsive landing page that showcases a clean, modern interface with an adaptive, modular layout.
