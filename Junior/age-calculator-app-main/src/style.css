@@ -44,13 +44,21 @@ input[type="number"]::-webkit-outer-spin-button {
 input[type="number"] {
     appearance: textfield;
     outline: none;
-    padding: .5em;
+    padding: .8em;
+    padding-top: 1em;
     border-radius: .5em;
     border: solid 1px hsl(0, 1%, 44%);
     width: 6.5em;
     height: 4em;
     font-size: 1em;
-    font-weight: 600;
+    font-weight: 800;
+    color: hsl(0, 0%, 8%);
+}
+
+
+input[type="number"]::placeholder {
+    font-size: 1.5em;
+    font-weight: 700;
 }
 
 input[type="number"]:hover {
@@ -79,13 +87,20 @@ input[type="number"]:focus {
     letter-spacing: .2em;
 }
 
-hr {
-    height: 1px;
-    width: 100%;
-    border: none;
+.submit {
     position: relative;
-    top: 4em;
+    width: 100%;
+    top: 2em;
+    text-align: center;
+}
+
+.divider {
+    display: block;
+    width: 100%;
+    height: 2px;
+    border: none;
     background-color: hsl(0, 0%, 86%);
+    margin: 1em 0;
 }
 
 .btn-submit {
@@ -93,9 +108,9 @@ hr {
     border: none;
     border-radius: 50%;
     padding: .8em;
-    margin-top: 1em;
     position: absolute;
-    top: 13.4em;
+    top: -1em;
+    left: 8.8em;
 }
 
 .btn-submit:hover {
@@ -105,7 +120,7 @@ hr {
 }
 
 .result {
-    margin-top: 6em;
+    margin-top: 4.5em;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -154,8 +169,8 @@ input.error-border {
     }
 
     .btn-submit {
-        top: 14em;
-        right: 4em;
+        top: -2em;
+        left: 46em;
         width: 7em;
         height: 7em;
     }

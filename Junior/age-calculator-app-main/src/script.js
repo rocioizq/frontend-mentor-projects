@@ -11,13 +11,20 @@ submitBtn.addEventListener("click", (e) => {
     const yearInput = document.getElementById("year").value;
     
     let valid = true;
+    const daysInAMonth = new Date(yearInput, monthInput, 0).getDate();
+
     if (!dayInput || !monthInput || !yearInput) {
         showErrorMessage(0, "This field is required");
         showErrorMessage(1, "This field is required");
         showErrorMessage(2, "This field is required");
         valid = false;
+    } else if (dayInput < 1 || dayInput > daysInAMonth || monthInput < 1 || monthInput > 12) {
+        showErrorMessage(0, "Must be a valid date");
+        showErrorMessage(1, "Must be a valid date");
+        showErrorMessage(2, "Must be a valid date");
+        valid = false;
     }
-
+    
     if (!valid) {
         cleanResults();
         return;
