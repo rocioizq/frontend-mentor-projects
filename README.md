@@ -1,34 +1,35 @@
-# Frontend Mentor Projects ✨
+# Proyectos de Frontend Mentor ✨  
 
-This repository contains my solutions to Frontend Mentor challenges. The projects are organized by difficulty, helping me improve my skills in HTML, CSS, and JavaScript.
+Este repositorio contiene mis soluciones a los desafíos de Frontend Mentor. Los proyectos están organizados por dificultad, ayudándome a mejorar mis habilidades en HTML, CSS y JavaScript.  
 
-## My Frontend Mentor Profile 🔗
-You can view my progress and challenges on my Frontend Mentor profile.
+## Mi Perfil en Frontend Mentor 🔗  
+Puedes ver mi progreso y desafíos en mi perfil de Frontend Mentor.  
 
-🔗 **[Frontend Mentor](https://www.frontendmentor.io/profile/rocioizq)**
+🔗 **[Frontend Mentor](https://www.frontendmentor.io/profile/rocioizq)**  
 
-## Project Structure 📂
+## Estructura del Proyecto 📂  
 
-- **Newbie**: Basic HTML and CSS challenges.
-- **Junior**: More advanced challenges that also include JavaScript.
+- **Newbie**: Desafíos básicos de HTML y CSS.  
+- **Junior**: Desafíos más avanzados que también incluyen JavaScript.  
 
-## Technologies Used 💻
+## Tecnologías Utilizadas 💻  
 
-- HTML
-- CSS
-- JavaScript
+- HTML  
+- CSS  
+- JavaScript  
 
-## How to Run 🚀
+## Cómo Ejecutar 🚀  
 
-1. Clone the repository:
+1. Clona el repositorio:  
     ```bash
     git clone https://github.com/rocioizq/faq-accordion-main.git
-    ```
-2. Navigate to the project folder:
+    ```  
+2. Accede a la carpeta del proyecto:  
     ```bash
     cd faq-accordion-main
-    ```
-3. Open the `index.html` file in your browser.
+    ```  
+3. Abre el archivo `index.html` en tu navegador.  
 
-## Feedback 💬
-Any feedback or suggestions are welcome! Feel free to open an issue or reach out to me directly.
+## Feedback 💬  
+¡Cualquier comentario o sugerencia es bienvenido! No dudes en abrir un issue o contactarme directamente.  
+
