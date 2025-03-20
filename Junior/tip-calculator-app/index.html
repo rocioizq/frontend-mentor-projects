@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="src/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Frontend Mentor | Tip calculator app</title>
+</head>
+<body>
+  <main>
+    <img src="images/logo.svg" alt="logo" class="logo">
+
+    <div class="container">
+      <div class="calculations-container">
+
+        <label for="bill" class="bill-label">Bill</label>
+        <div class="input-wrapper">
+          <img src="images/icon-dollar.svg" class="input-icon" alt="icon dollar">
+          <input type="number" id="bill" name="bill">
+        </div>
+
+        <div class="select-tip">
+          <label for="select-tip" class="select-label">Select Tip %</label>
+            <div class="buttons-tips">            
+              <button class="tip" data-tip="0.05">5%</button>
+              <button class="tip" data-tip="0.1">10%</button>
+              <button class="tip" data-tip="0.15">15%</button>
+              <button class="tip" data-tip="0.25">25%</button>
+              <button class="tip" data-tip="0.5">50%</button>
+              <input class="custom" id="custom" placeholder="Custom" min="0"></input>
+            </div>
+        </div>
+
+        <label for="people" class="people-label">Number of People</label>
+        <span class="error-msg">Can't be zero</span>
+        <div class="input-wrapper">
+          <img src="images/icon-person.svg" class="input-icon" alt="icon person">
+          <input type="number" id="people" name="people">
+        </div>
+      </div>
+
+      <div class="results-container">
+        <div class="input-wrapper">
+          <div class="label-container">
+            <label for="amount">Tip Amount</label>
+            <span>/ person</span>
+          </div>
+          <span class="result-amount">$0.00</span>
+        </div>
+        
+        <div class="input-wrapper">
+          <div class="label-container">
+            <label for="total">Total</label>
+            <span>/ person</span>
+          </div>
+          <span class="result-total">$0.00</span>
+        </div>
+        
+
+        <button class="reset" type="reset">Reset</button>
+      </div>
+    </div>
+  </main>
+  <script src="src/main.js"></script>
+</body>
+</html>
