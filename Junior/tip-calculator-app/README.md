@@ -2,8 +2,8 @@
 
 Este proyecto es una solución al reto de Frontend Mentor llamado Aplicación Calculadora de Propinas.
 
-🔗 [Demo en Vivo](#)  
-🔗 [Demo de la Solución](#)
+🔗 [Demo en Vivo](https://frontend-mentor-projects-9akm.vercel.app/)  
+🔗 [Demo de la Solución](https://www.frontendmentor.io/solutions/tips-calculator-app-oZOUjuNS3S)
 
 ## 📌 Descripción
 
@@ -24,7 +24,7 @@ La Aplicación Calculadora de Propinas permite a los usuarios calcular la cantid
 
 ## 📸 Vista Previa
 
-![Vista Previa de la Aplicación Calculadora de Propinas](/design/desktop-preview.jpg)
+![Vista Previa de la Aplicación Calculadora de Propinas](/Junior/tip-calculator-app/design/desktop-preview.jpg)
 
 ## 🏗 Instalación
 
