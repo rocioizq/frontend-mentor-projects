@@ -80,6 +80,7 @@ a {
 
 a:hover {
     color: hsl(245, 72%, 61%);
+    transition: all 0.3s ease-in-out;
 }
 
 .boton {
@@ -104,6 +105,7 @@ button {
 button:hover {
     cursor: pointer;
     background-color: hsl(245, 72%, 61%);
+    transition: all 0.3s ease-in-out;
 }
 
 h3 {
@@ -117,6 +119,7 @@ h3 {
 h3:hover {
     cursor: pointer;
     color: hsl(223, 47%, 23%);
+    transition: all 0.3s ease-in-out;
 }
 
 
