@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Lexend Deca", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: hsl(0, 0%, 95%);
+}
+
+.container {
+  max-width: 900px;
+  padding: 1em;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.card {
+  flex: 1;
+  padding: 2em;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.card img {
+  width: 30%; 
+  margin-bottom: 1rem;
+}
+
+.card h2 {
+  margin: 0;
+  font-size: 2em;
+  text-transform: uppercase;
+  font-family: "Big Shoulders Display", sans-serif;
+}
+
+.card p {
+  font-size: 1em;
+  line-height: 1.5;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+.card button {
+  padding: .8em;
+  border: 2px solid hsl(0, 0%, 95%);
+  border-radius: 2em;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #fff;
+  transition: all 0.5s ease-in-out;
+  margin-block: 1em;
+  width: 60%;
+}
+
+.card button:hover {
+  background-color: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+.sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+
+.sedan button {
+ color: hsl(31, 77%, 52%)
+}
+
+.suv {
+  background-color:  hsl(184, 100%, 22%);
+}
+
+.suv button {
+  color:  hsl(184, 100%, 22%);
+}
+
+.luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.luxury button {
+  color: hsl(179, 100%, 13%);
+}
+
+@media screen and (max-width: 786px) {
+  body {
+    height: calc(100vh - 1%);
+  }
+
+  .container {
+    max-width: 500px;
+    margin: auto;
+    flex-direction: column;
+  }
+
+  .items {
+    flex-direction: column;
+  }
+
+  .card button {
+    margin: 0;
+  }
+
+  .card p {
+    margin-block: 1em;
+  }
+
+  .card img {
+    width: 30%;
+    margin: 1em auto;
+  }
+
+  .card h2 {
+    font-size: 2.5em;
+  }
+
+  .card button {
+    width: 100%;
+    margin: 1.5em auto;
+  }
+}
+
