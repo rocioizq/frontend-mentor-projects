@@ -1,29 +1,30 @@
 # 🏙 3-Column Preview Card Component - Frontend Mentor
 
-A **3-column preview card component**, perfect for showcasing content in a clean and structured layout. This design is responsive and works seamlessly across different screen sizes.
+Un componente de tarjeta de vista previa de 3 columnas, perfecto para mostrar contenido de manera limpia y estructurada. Este diseño es responsive y está realizado con React + Vite.
 
 🔗 **[Live Demo](https://3-column-preview-card-component-main.vercel.app/)**  
 🔗 **[Solution Demo](https://www.frontendmentor.io/solutions/3-column-preview-card-component-solution-32GaZuemYr)**  
 
-## ✨ Features  
-✔️ **Responsive design** – Adapts beautifully to both mobile and desktop screens.  
-✔️ **Modern, clean layout** – Simple, clear design for presenting cards with content.  
-✔️ **Interactive cards** – Each card includes hover effects for better user engagement.  
+## ✨ Características 
+✔️ **Diseño Responsive** – Se adapta perfectamente tanto a pantallas móviles como de escritorio.  
+✔️ **Diseño moderno y limpio** – Simple, clear design for presenting cards with content.  
+✔️ **Tarjetas interactivas** – Cada tarjeta incluye efectos al pasar el cursor para mejorar la interacción del usuario. 
 
-## 🛠️ Technologies Used  
-- **HTML5** – Structure and content elements.  
-- **CSS3** – Styling, layout using Flexbox for responsive design.  
+## 🛠️ Tecnologías Usadas
+- **HTML5** – Estructura y elementos de contenido. 
+- **CSS3** – Estilos y diseño utilizando Flexbox para un diseño responsive.
+- **REACT** - Utilizado para crear y manejar el componente de las tarjetas.
 
-## 🚀 How to Run the Project Locally  
-1. Clone the repository:  
+## 🚀 Cómo ejecutar el proyecto localmente  
+1. Clona el repositorio:  
     ```bash
     git clone https://github.com/rocioizq/3-column-preview-card-component-main.git
     ```  
-2. Navigate to the project folder:  
+2. Navega a la carpeta del proyecto: 
     ```bash
     cd 3-column-preview-card-component-main
     ```  
-3. Open the `index.html` file in your browser.  
+3. Abre el archivo `index.html` en tu navegador. 
 
-## 📷 Screenshots  
+## 📷 Capturas de pantalla  
 ![3-Column Preview Card Screenshot](./design/desktop-preview.jpg)  
