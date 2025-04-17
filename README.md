@@ -1,6 +1,6 @@
 # Proyectos de Frontend Mentor ✨  
 
-Este repositorio contiene mis soluciones a los desafíos de Frontend Mentor. Los proyectos están organizados por dificultad, ayudándome a mejorar mis habilidades en HTML, CSS y JavaScript.  
+Este repositorio contiene mis soluciones a los desafíos de Frontend Mentor. Los proyectos están organizados por dificultad, ayudándome a mejorar mis habilidades en HTML, CSS, JavaScript y testing con Cypress en algunos de ellos. 
 
 ## Mi Perfil en Frontend Mentor 🔗  
 Puedes ver mi progreso y desafíos en mi perfil de Frontend Mentor.  
@@ -16,7 +16,8 @@ Puedes ver mi progreso y desafíos en mi perfil de Frontend Mentor.
 
 - HTML  
 - CSS  
-- JavaScript  
+- JavaScript
+- Cypress
 
 ## Cómo Ejecutar 🚀  
 
