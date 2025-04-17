@@ -72,7 +72,6 @@ submitBtn.addEventListener("click", (e) => {
     resultYear.textContent = years;
     resultMonth.textContent = months;
     resultDay.textContent = days;
-    hideErrorMessage()
 });
 
 function showErrorMessage(index, message) {

@@ -1,0 +1,15 @@
+{
+  "name": "age-calculator-app-main",
+  "version": "1.0.0",
+  "description": "This project is a solution to the [Frontend Mentor](https://www.frontendmentor.io/) challenge called **Age Calculator App**.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.3.0"
+  }
+}
