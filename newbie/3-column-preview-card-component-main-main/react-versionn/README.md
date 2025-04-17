@@ -1,3 +1,9 @@
+# 🏙 3-Column Preview Card Component - REACT VERSION
+
+Proyecto armado completamente con React + Vite
+
+🔗 **[Live Demo](https://3-column-react-version.vercel.app/)**  
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
