@@ -1,46 +1,44 @@
 # Age Calculator App
 
-This project is a solution to the [Frontend Mentor](https://www.frontendmentor.io/) challenge called **Age Calculator App**.
+Esta es una calculadora de edad simple pero interactiva que toma la fecha de nacimiento del usuario y calcula con el número de años, meses y días que ha vivido. 
 
 🔗 **[Live Demo](https://frontend-mentor-projects-blush.vercel.app/)**\
-🔗 **[Solution Demo](#)**
+🔗 **[Solution Demo](https://www.frontendmentor.io/solutions/responsive-age-calculator-app-z3BQmwNgF2)**
 
-## 📌 Description
 
-This is a simple yet interactive age calculator that takes a user's birth date and calculates the exact number of years, months, and days they have lived.
+## 🚀 Funcionalidades
 
-## 🚀 Features
+- ✅ Valida los campos de entrada para asegurar fechas correctas
+- ✅ Muestra mensajes de error para campos vacíos o inválidos
+- ✅ Diseño responsive para dispositivos de escritorio y móviles
 
-- ✅ Validates input fields to ensure correct dates
-- ✅ Displays error messages for invalid or empty fields
-- ✅ Responsive design for both desktop and mobile devices
-- ✅ Accurate age calculation in real-time
+## 🛠 Tecnologías Usadas
 
-## 🛠 Technologies Used
-
-- **HTML5** for structure
-- **CSS3** for styling and responsiveness
-- **JavaScript** for validation and calculations
+- **HTML5** para la estructura
+- **CSS3** para los estilos y el diseño responsivo
+- **JavaScript** para validaciones y cálculos
 - **Google Fonts** (Poppins)
+- **CYPRESS** para testear la aplicación completa
 
-## 📸 Preview
+## 📸 Vista Previa
 ![Blogr Landing Page Preview](./design/desktop-preview.jpg)
 
-## 🏗 Installation
+## 🏗 Instalación
 
-1️⃣ Clone the repository:
+1️⃣ Cloná el repositorio:
 
 ```sh
     git clone https://github.com/your-username/age-calculator-app.git
 ```
 
-2️⃣ Navigate to the project folder:
+2️⃣ Navegá a la carpeta del proyecto:
 
 ```sh
     cd age-calculator-app-main
 ```
 
-3️⃣ Open the `index.html` file in your browser.
+3️⃣  Abrí el archivo `index.html`en tu navegador.
 
-Enjoy! 🚀
+
+🚀🚀🚀
 
