@@ -1,12 +1,13 @@
 # 🌐 Social Link Profile - Frontend Mentor  
-  Un componente de tarjeta de perfil con enlaces sociales que muestra mi perfil con los enlaces a redes sociales. El diseño presenta una apariencia limpia y minimalista con una tipografía clara.
+  Un componente de tarjeta de perfil con enlaces sociales que muestra mi perfil con los enlaces a redes sociales. Este diseño se realizó con React y Cypress a modo de práctica de creación de componentes.
 
 🔗 **[Live Demo](https://social-link-profile-main-jy66.vercel.app/)**  
 🔗 **[Solution Demo](https://www.frontendmentor.io/solutions/social-link-profile-cX7wx-fbt1)**  
 
 ## 🛠️ Tecnologías usadas  
-- **HTML5** - Estructura y contenido de la página.
 - **CSS3** – Estilado y diseño con Flexbox para responsividad.
+- **REACT** - Estructura de componentes.
+- **CYPRESS** - Testeo de los 
 
 ## 🚀 Cómo ejecutar el proyecto localmente
 1. Clona el repositorio:  

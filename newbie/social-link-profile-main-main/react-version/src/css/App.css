@@ -1,0 +1,77 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: hsl(0, 0%, 8%);
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  max-height: 100vh;
+}
+
+.card {
+  padding: 2em;
+  background-color: hsl(0, 0%, 12%);
+  border-radius: 1em;
+  width: 500px;
+  height: 720px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 20%;
+  margin-bottom: 1em;
+}
+
+h1 {
+  font-size: 1.8em;
+}
+
+p {
+  color: hsl(0, 1%, 67%);
+  margin-top: .8em;
+}
+
+.location {
+  color: hsl(75, 94%, 57%);
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.social-button {
+  background-color: hsl(0, 0%, 20%);
+  margin-block: .5em;
+  padding: 1.2em;
+  border-radius: .5em;
+  color: #fff;
+  font-weight: bolder;
+  font-size: 1.2em;
+  width: 90%;
+  transition: all 0.5s ease-in-out;
+}
+
+.social-button:hover {
+  color: hsl(0, 0%, 20%);
+  background-color: hsl(75, 94%, 57%);
+}
+
+.read-the-docs {
+  color: #888;
+}
