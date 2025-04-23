@@ -33,13 +33,13 @@ const cars = [
   },
 ];
 
-function CarsCard({ image, type, description, button, className }) {
+function CarsCard(props) {
   return (
-    <div className={`card ${className}`}>
-      <img src={image} alt={type} />
-      <h2>{type}</h2>
-      <p>{description}</p>
-      <button>{button}</button>
+    <div className={`card ${props.className}`}>
+      <img src={props.image} alt={props.type} />
+      <h2>{props.type}</h2>
+      <p>{props.description}</p>
+      <button>{props.button}</button>
     </div>
   );
 }
