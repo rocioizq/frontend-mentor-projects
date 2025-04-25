@@ -3,7 +3,7 @@ import { reviewsData } from './data/reviewsData.jsx'
 export function ReviewsContainer({ image, userName, userReview, className }) {
     return (
         <>
-            <div className={`reviews-container ${className}`}>
+            <div className={`reviews-container ${className} animate__animated animate__flipInY animate__delay-1s`}>
                 <div className="user">
                     <img src={image} alt={userName} />
                     <div className="user-data">

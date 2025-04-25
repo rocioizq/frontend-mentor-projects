@@ -2,7 +2,7 @@ import { starsData } from './data/starsData'
 
 export function StarsContainer({ reviews, stars, className }) {
   return (
-    <div className={`stars ${className}`}>
+    <div className={`stars ${className} animate__animated animate__bounceInRight`}>
       <div className="stars-row">
         {Array.from({ length: stars }).map((_, i) => (
           <img

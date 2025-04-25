@@ -1,4 +1,5 @@
 import  '../css/App.css' 
+import 'animate.css';
 import { Title } from './title.jsx'
 import { Stars } from './stars.jsx'
 import { Reviews } from './reviews.jsx';
