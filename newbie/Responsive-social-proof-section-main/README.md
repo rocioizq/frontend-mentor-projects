@@ -1,29 +1,34 @@
 # ✅ Responsive Social Proof Section - Frontend Mentor
 
-A **responsive social proof section** showcasing user testimonials, designed to provide credibility and trust for a service or product. The layout is fully responsive, ensuring a seamless experience on both mobile and desktop devices.
+Una muestra testimonios de usuarios, diseñada para proporcionar credibilidad y confianza en un servicio o producto. El proyecto cuenta con dos versiones: una solo con **HTML** + **CSS** y otra con **REACT** + **VITE** + **CSS** a modo de práctica.
 
+- **PROYECTO HTML + CSS**
 🔗 **[Live Demo](https://responsive-social-proof-section-two.vercel.app/)**  
 🔗 **[Solution Demo](https://www.frontendmentor.io/solutions/responsive-social-proof-section-I4tXtgULMn)**  
 
-## ✨ Features  
-✔️ **Responsive design** – Fully optimized for both mobile and desktop screens.  
-✔️ **Testimonial section** – Displays user reviews in a visually appealing way with a clean design.  
-✔️ **Modern UI** – Simple, modern design with clear text and a focus on readability.  
+- **PROYECTO REACT + VITE + CSS**
+🔗 **[Live Demo](https://social-proof-react-version.vercel.app/)**  
+🔗 **[Solution Demo](https://www.frontendmentor.io/solutions/react-vite-social-proof-PMe_-1kNG4)**  
 
-## 🛠️ Technologies Used  
-- **HTML5** – Structure and content elements.  
-- **CSS3** – Styling and layout using Flexbox for responsiveness.  
+## ✨ Caracteristicas  
+✔️ **Diseño responsive** – Totalmente optimizado para pantallas móviles y de escritorio.
+✔️ **UI moderna** – Diseño simple y moderno con texto claro y enfocado en la legibilidad.  
 
-## 🚀 How to Run the Project Locally  
-1. Clone the repository:  
+## 🛠️ Tecnologías usadas 
+- **HTML5** – Estructura. 
+- **CSS3** – Estilos y utilización de flexbox.
+- **REACT** - Creación de componentes de manera reutilizable, limpia y ordenada.  
+
+## 🚀 Cómo ejecutar el proyecto localmente  
+1. Clona el repositorio: 
     ```bash
     git clone https://github.com/rocioizq/Responsive-social-proof-section.git
     ```  
-2. Navigate to the project folder:  
+2. Navega a la carpeta del proyecto: 
     ```bash
     cd Responsive-social-proof-section
     ```  
-3. Open the `index.html` file in your browser.  
+3. Abre el archivo index.html en tu navegador.  
 
 ## 📷 Screenshots  
 ![Social Proof Section Screenshot](./design/desktop-preview.jpg)  
