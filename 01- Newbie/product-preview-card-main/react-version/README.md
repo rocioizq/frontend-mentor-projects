@@ -27,4 +27,4 @@ Un componente de tarjeta de vista previa de producto que muestra un diseño limp
 3. Abre el archivo index.html en tu navegador.  
 
 ## 📷 Screenshots  
-![Product Preview Card Screenshot](/design/desktop-preview.jpg)  
+![Product Preview Card Screenshot](../design/desktop-preview.jpg)  
