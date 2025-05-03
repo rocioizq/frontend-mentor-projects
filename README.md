@@ -17,6 +17,7 @@ Puedes ver mi progreso y desafíos en mi perfil de Frontend Mentor.
 - HTML  
 - CSS  
 - JavaScript
+- React
 - Cypress
 
 ## Cómo Ejecutar 🚀  
