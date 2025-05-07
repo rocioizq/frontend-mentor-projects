@@ -1,4 +1,5 @@
 import "./App.css"
+import CarsCard from "./components/CarsCard";
 
 const cars = [
   {
@@ -32,17 +33,6 @@ const cars = [
       "https://3-column-preview-card-component-main.vercel.app/images/icon-luxury.svg",
   },
 ];
-
-function CarsCard(props) {
-  return (
-    <div className={`card ${props.className}`}>
-      <img src={props.image} alt={props.type} />
-      <h2>{props.type}</h2>
-      <p>{props.description}</p>
-      <button>{props.button}</button>
-    </div>
-  );
-}
 
 export default function App() {
   return (
